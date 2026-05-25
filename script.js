@@ -60,7 +60,7 @@ function podiumMedalhas(){
     caixaPrincipal.style.background = "url('img/bronze.png')";
     caixaPerguntas.textContent = "Resultado da competição: 3 pontos é BRONZE!";
 }
-else if(pontos === 4)(){
+else if(pontos == 4)(){
     caixaPrincipal.style.background = "url('img/prata.png')";
     caixaPerguntas.textContent = "Resultado da competição: 4 pontos é PRATA!";
 }
